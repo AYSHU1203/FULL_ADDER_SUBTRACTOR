@@ -63,7 +63,7 @@ or(cout,c2,c1);
 endmodule
 
 ```
-
+```
 module experiment4(df,bo,a,b,bin);
 output df;
 output bo;
@@ -77,19 +77,20 @@ assign w3=(~w1&bin);
 assign df=w1^bin;
 assign bo=w2|w3;
 
-```
-
 
 ```
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 
 **RTL Schematic**
-![Screenshot 2024-11-14 171153](https://github.com/user-attachments/assets/b42af3bb-fd0c-43ba-b26d-4d60f087f15a)
-![Screenshot 2024-12-10 113919](https://github.com/user-attachments/assets/f6a5889c-069f-4053-bc29-22afb8d358f0)
+![Screenshot 2024-12-10 113919](https://github.com/user-attachments/assets/83d1db48-5cb3-44da-bd0d-16cd86735ddd)
+![Screenshot 2024-11-14 171153](https://github.com/user-attachments/assets/6be12520-4619-4be7-b4a6-c6c2511f26ca)
+
+
 
 
 **Output Timing Waveform**
+![Screenshot 2024-12-10 114100](https://github.com/user-attachments/assets/8669be4a-451c-42ae-9766-5fdee13d92a1)
 
 ![Screenshot 2024-11-14 171543](https://github.com/user-attachments/assets/2c459fdd-80f3-4c6f-9ec0-0f78ecb60017)
 **Result:**
